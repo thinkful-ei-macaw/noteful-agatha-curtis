@@ -1,0 +1,23 @@
+.App {
+  text-align: center;
+}
+
+#root {
+  display: grid;
+  grid-template-areas: "leftColumn" "rightColumn";
+  grid-template-columns: 25% 75%;
+  grid-template-rows: 125px 1fr;
+}
+
+.Header {
+  background-color: rgb(26, 10, 97);
+}
+
+.Folder {
+  background-color: #271283;
+}
+
+.Note {
+  background-color: #321c94;
+  
+}

@@ -1,0 +1,18 @@
+.folder__container {
+    grid-row-start: 2;
+    grid-row-end: 2;
+    grid-column-start: 1;
+    grid-column-end: 1;
+}
+
+.folder-js {
+    padding-left: 20px;
+    margin-left: 20px;
+    background-color: rgb(31, 12, 73);
+    width: 200px;
+    color: white;
+}
+
+.folder__button {
+    text-decoration: none;
+}

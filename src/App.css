@@ -1,0 +1,34 @@
+.App {
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+#main {
+  display: grid;
+  grid-template-areas: 
+  "nav header"
+  "nav main";
+  grid-template-columns: 25% 75%;
+  grid-template-rows: 125px 1fr;
+  overflow: auto;
+  height: calc(100vh);
+}
+
+.Header {
+  background-color: rgb(31, 12, 73);
+  width: 100%;
+  grid-area: header;
+}
+
+.FolderList {
+  background-color: #14215a;
+  grid-area: nav;
+}
+
+.NoteList {
+  background-color: #321c94;
+  grid-area: main;
+}

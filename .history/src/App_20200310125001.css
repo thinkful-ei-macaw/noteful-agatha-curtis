@@ -1,0 +1,32 @@
+.App {
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+#main {
+  display: grid;
+  grid-template-areas: 
+  "nav head"
+  "nav main";
+  grid-template-columns: 25% 75%;
+  grid-template-rows: 125px 1fr;
+}
+
+.Header {
+  background-color: rgb(26, 10, 97);
+  width: 100%;
+  grid-area: head;
+}
+
+.Folder {
+  background-color: #271283;
+  grid-area: nav;
+}
+
+.Note {
+  background-color: #321c94;
+  grid-area: main;
+}

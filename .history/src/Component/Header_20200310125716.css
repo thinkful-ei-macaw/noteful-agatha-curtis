@@ -1,0 +1,18 @@
+
+
+h1 {
+    color: white;
+    padding: 10px 5px 5px 20px;
+  }
+
+a {
+    text-decoration: none;
+}
+
+a:link, a:visited, a:active {
+    color: white;
+}
+
+a:hover {
+    color: rgb(56, 135, 240)
+}
